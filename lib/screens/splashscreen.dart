@@ -17,10 +17,9 @@ class SplashScreen extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Container(
-              child: Image.asset('assets/images/sample image.jpg',
-                  fit: BoxFit.cover),
-              height: 100.0,
-              width: 100.0,
+              child: Image.asset(
+                'assets/logos/logo.png',
+              ),
             ),
             SizedBox(height: 152.0),
             GestureDetector(
